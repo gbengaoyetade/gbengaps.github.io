@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.left-side {
+	width: 35vw;
+	height: 100vh;
+	background-color: #4b21ff;
+	color: #fff;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 40px;
+}
+
+.page-highlight {
+	width: 600px;
+	height: 90%;
+	background-image: url("/assets/gbenga.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	top: 5%;
+	left: 70%;
+	box-shadow: 5px 9px 25px 5px #cacaca;
+}
+
+.social-links {
+	color: #fff;
+}
+.social-links img {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.page-content {
+	width: 65vw;
+	height: 100vh;
+	padding-top: 20%;
+	padding-left: 30%;
+}
+
+.button-link {
+	display: block;
+	width: 150px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.button-link:hover {
+	box-shadow: 2px 3px 5px 1px #bfbebe;
+	transition: box-shadow linear 0.2s;
+}
+
+.portfolio-link {
+	border: 2px solid #4b21ff;
+	color: #fff;
+	background-color: #4b21ff;
+}
+
+.resume-link {
+	border: 2px solid #5e5e5e;
+	color: #5e5e5e;
+}
+
+.links-wrapper {
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+}
+.description {
+	color: #6c6c6c;
+}
+.dark-grey {
+	color: #585858;
+}
+.brand-color {
+	color: #4b21ff;
+}
+.name {
+	margin: 4px;
+}
+
+.line {
+	width: 120px;
+	height: 5px;
+	background-color: #4b21ff;
+	position: relative;
+	left: 90%;
+	top: 41%;
+}
